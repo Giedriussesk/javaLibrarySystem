@@ -1,20 +1,20 @@
 # Java Library Management System
 
-A console-based application built to practice object relationships and data management in Java. This project simulates a library environment where books can be added, searched, and checked in or out.
+A console-based application built to practice object relationships and data management in Java. This project simulates a library system for managing book inventory and tracking availability.
 
-## 🕹️ Features
-* **Inventory Management:** Add new books with specific details like Title, Author, and ISBN.
-* **Availability Tracking:** Toggle the status of a book between "Available" and "Checked Out."
-* **Search Functionality:** Find specific books within the library's collection using the library's internal registry.
+## Features
+- **Inventory Management:** Add new books with details including Title, Author, and ISBN.
+- **Availability Tracking:** Manage book status between "Available" and "Checked Out."
+- **Search Functionality:** Locate specific books within the library collection.
 
-## 🧠 OOP Concepts Applied
-* **Composition:** Implemented a `Library` class that contains and manages a collection of `Book` objects using `ArrayList`.
-* **Encapsulation:** Protected book data by using private attributes, ensuring that a book's status can only be changed through authorized methods.
-* **State Management:** Managed the logical state of objects (boolean flags) to represent real-world availability.
-* **Class Separation:** Divided the project into a data model (`Book`), a controller (`Library`), and a user interface (`Main`).
+## OOP Concepts Applied
+- **Composition:** Implementation of a `Library` class that manages a collection of `Book` objects via `ArrayList`.
+- **Encapsulation:** Use of private attributes to protect book data, ensuring status changes occur only through authorized methods.
+- **State Management:** Utilizing boolean flags to represent and track the real-world availability of objects.
+- **Class Separation:** Architecture divided into a data model (`Book`), a controller (`Library`), and a user interface (`Main`).
 
-## 🚀 How to Run
-1. Ensure you have the JDK installed.
-2. Clone this repo:
+## How to Run
+1. Ensure the JDK is installed.
+2. Clone the repository:
    ```bash
    git clone [https://github.com/Giedriussesk/javaLibrarySystem.git](https://github.com/Giedriussesk/javaLibrarySystem.git)
